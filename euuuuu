@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head><title>="cadastro de novos clientes"</title>
+</head>
+
+<body>
+    <h1>seja bem vindo ao cadastro de novos usuario</h1>
+    <p>esse site é desenvolvido para usuarios novos,como você</p>
+
+<form action="cadastro.html" method="post">
+
+<label for="nome">Nome completo:</label><br>
+<input type="text" id="nome" name="nome"><br>
+
+<label for="email">Adicione seu email:</label><br>
+<input type="text" id="email" name="email"><br>
+
+<label for="nome de usuario">adicione seu nome de usuario:</label><br>
+<input type="text" id="nome de usuario" name="nome de usuario"><br>
+
+<label for="senha">crie uma senha:</label><br>
+<input type="password" id="senha" name="senha"><br>
+
+<label for="senha">confirme sua senha:</label><br>
+<input type="password" id="senha" name="senha"><br>
+
+<label for="data nascimento">Digite sua data de nascimento:</label><br>
+<input type="date" id="data nascimento" name="data nascimento"><br>
+
+<label for="telefone">informe seu numero de telefone:</label><br>
+<input type="tel" id="telefone" name="telefone"><br>
+
+<label>qual seu genêro?</label><br>
+
+<input type="radio" id="feminino" name="genero" value="feminino">
+<label for="feminino">feminino</label><br>
+
+<input type="radio" id="outro" name="genero" value="outro">
+<label for="outro">masculino</label><br>
+
+<label>intereses</label><br>
+<input type="checkbox" id="tecnologia" name="eu" value="zinha"><br>
+<label for="tecnologia">tecnologia</label><br>
+
+<input type="checkbox" id="musica" name="eu" value="zinha">
+<label for="musica">musica</label><br>
+
+<input type="checkbox" id="esportes" name="eu" value="zinha">
+<label for="esportes">esportes</label><br>
+
+<input type="checkbox" id="filmes" name="eu" value="zinha">
+<label for="filmes">filmes</label><br>
+
+<label for="estado">Qual seu estado?</label>
+<input type="radio" id="estado" name="estado " required><br>
+<input type="radio" id="feminino" name="genero" value="feminino">
+
+<input type="radio" id="feminino" name="genero" value="feminino"><br>
+<label for="feminino">minas gerais</label>
+
+<input type="radio" id="feminino" name="genero" value="feminino"><br>
+<label for="feminino">bahia</label>
+
+<input type="radio" id="outro" name="genero" value="outro"><br>
+<label for="outro">são paulo</label>
+
+<input type="radio" id="outro" name="genero" value="outro"><br>
+<label for="outro">rio de janeiro</label>
+
+<label for="nome">cidade:</label><br>
+<input type="textarea" id="nome" name="nome"><br>
+
+<label for="nome">se apresente para nós:</label><br>
+<input type="text" id="nome" name="nome"><br>
+
+
+
+
+</form>
