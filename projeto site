@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Bem vindo a Érica Cakes</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>Bem vindo à Érica Cakes</title>
+  <link rel="stylesheet" href="style.css"> <!-- link do CSS externo -->
+</head>
 <body>
 
-    
-    <h2><b>bem vindo a Érica Cakes</em></h2>
-    <h2><p><b>Aqui, unimos criatividade, qualidade e dedicação em cada receita. Trabalhamos com ingredientes selecionados e prezamos sempre pelo frescor, para garantir que cada cliente viva uma experiência única de sabor e beleza. Do bolo simples do dia a dia até os mais elaborados de dois andares, tudo é feito com amor e capricho.</b></p></h2>
+  <h2><b>Bem-vindo à Érica Cakes</b></h2>
 
-   
-    <h2><em>Na Érica Cakes, preparamos cada doce e bolo com muito carinho e dedicação. Confira abaixo alguns dos nossos exemplares já produzidos e inspire-se para a sua comemoração. Depois, não deixe de acessar o nosso catálogo completo para escolher a opção que mais combina com o seu momento especial.</em></h2>
-    
-    <h2><em>Abaixo você pode conferir alguns dos nossos serviços</em></h3>
+  <p><b>
+    Aqui, unimos criatividade, qualidade e dedicação em cada receita. Trabalhamos com ingredientes selecionados e prezamos sempre pelo frescor, para garantir que cada cliente viva uma experiência única de sabor e beleza. Do bolo simples do dia a dia até os mais elaborados de dois andares, tudo é feito com amor e capricho.
+  </b></p>
 
-    <figure style="text-align: center;"><img src="c:\Users\Admin\Downloads\download.jfif" alt="bolo festivo" width="100">
-    <p>bolo festivo</p></figure>
+  <h2><em>
+    Na Érica Cakes, preparamos cada doce e bolo com muito carinho e dedicação. Confira abaixo alguns dos nossos exemplares já produzidos e inspire-se para a sua comemoração.
+  </em></h2>
 
-    <figure style="text-align: center;"><img src="c:\Users\Admin\Downloads\download.jfif" alt="morango do amor" width="100">
-    <p> morango do amor</p></figure>
+  <h2><em>
+    Abaixo você pode conferir alguns dos nossos serviços:
+  </em></h2>
 
-    <figure style="text-align: center;"><img src="c:\Users\Admin\Downloads\download.jfif" alt="bolo caseiro" width="100">
-    <p> bolo caseiro</p></figure>
+  <!-- Grid de imagens -->
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="https://via.placeholder.com/300x200?text=Bolo+Festivo" alt="Bolo Festivo" />
+      <p>Bolo Festivo</p>
+    </div>
+    <div class="grid-item">
+      <img src="https://via.placeholder.com/300x200?text=Morango+do+Amor" alt="Morango do Amor" />
+      <p>Morango do Amor</p>
+    </div>
+    <div class="grid-item">
+      <img src="https://via.placeholder.com/300x200?text=Bolo+Caseiro" alt="Bolo Caseiro" />
+      <p>Bolo Caseiro</p>
+    </div>
+    <div class="grid-item">
+      <img src="https://via.placeholder.com/300x200?text=Outro+Produto" alt="Outro Produto" />
+      <p>Outro Produto</p>
+    </div>
+  </div>
 
-   <div style="text-align:margin-right 20px;"> <a href="" target="_blank"></a>
-    <button>conheça nosso catálogo</button></div>
+  <!-- Botões -->
+  <div class="buttons">
+    <button onclick="window.open('#')">Conheça nosso catálogo</button>
+    <button onclick="window.open('#')">Faça seu orçamento</button>
+  </div>
 
-    <div style="text-align:margin-right 20px;"><a href="" target="_blank"></a>
-    <button>faça seu orçamento</button></div>
-
-    
 </body>
-
-
-
-
 </html>
