@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bem vindo a Érica Cakes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    
+    <h2><b>bem vindo a Érica Cakes</em></h2>
+    <h2><p><b>Aqui, unimos criatividade, qualidade e dedicação em cada receita. Trabalhamos com ingredientes selecionados e prezamos sempre pelo frescor, para garantir que cada cliente viva uma experiência única de sabor e beleza. Do bolo simples do dia a dia até os mais elaborados de dois andares, tudo é feito com amor e capricho.</b></p></h2>
+
+   
+    <h2><em>Na Érica Cakes, preparamos cada doce e bolo com muito carinho e dedicação. Confira abaixo alguns dos nossos exemplares já produzidos e inspire-se para a sua comemoração. Depois, não deixe de acessar o nosso catálogo completo para escolher a opção que mais combina com o seu momento especial.</em></h2>
+    
+    <h2><em>Abaixo você pode conferir alguns dos nossos serviços</em></h3>
+
+    <figure style="text-align: center;"><img src="c:\Users\Admin\Downloads\download.jfif" alt="bolo festivo" width="100">
+    <p>bolo festivo</p></figure>
+
+    <figure style="text-align: center;"><img src="c:\Users\Admin\Downloads\download.jfif" alt="morango do amor" width="100">
+    <p> morango do amor</p></figure>
+
+    <figure style="text-align: center;"><img src="c:\Users\Admin\Downloads\download.jfif" alt="bolo caseiro" width="100">
+    <p> bolo caseiro</p></figure>
+
+   <div style="text-align:margin-right 20px;"> <a href="" target="_blank"></a>
+    <button>conheça nosso catálogo</button></div>
+
+    <div style="text-align:margin-right 20px;"><a href="" target="_blank"></a>
+    <button>faça seu orçamento</button></div>
+
+    
+</body>
+
+
+
+
+</html>
