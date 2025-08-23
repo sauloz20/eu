@@ -1,12 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #fffaf5;
+    background-color: blanchedalmond;
+  
 }
 
 h2 {
   font-weight: normal;
-  color: #4CAF50;
+    color: brown;
 }
 
 p {
@@ -25,7 +26,7 @@ p {
 
 .grid-item {
   text-align: center;
-  background-color: #fff;
+    background-color: blanchedalmond;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -50,8 +51,8 @@ p {
 }
 
 .buttons button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: brown;
+  color: blanchedalmond;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -61,5 +62,5 @@ p {
 }
 
 .buttons button:hover {
-  background-color: #45a049;
-}
+  background-color: brown;
+  }
