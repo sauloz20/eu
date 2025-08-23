@@ -4,23 +4,25 @@
 
 <head>
 <title>como trabalhamos?</title>
+<link rel="stylesheet" href="eu.css">
 </head>
 
 <body> 
 
     <h1>Massas</h1>
     <ul>
-        <li>Baunilha</li>
+        <h2><li>Baunilha</li>
         <li>chocolate 50%</li>
         <li>Cacau black</li>
-        <li>Red velvet</li>
+        <li>Red velvet</li></h2>
 
     </ul>
 
 <h1><b>Recheios</b></h1>
 
+
 <ul>
-    <li>Creme moça</li>
+    <h2><li>Creme moça</li>
     <li>Coco gourmet</li>
     <li>Brigadeiro tradicional</li>
     <li>Brigadeiro branco</li>
@@ -33,7 +35,7 @@
     <li>Brigadeiro quatro leites</li>
     <li>Mousse de chocolate</li>
     <li>Brigadeiro de maracujá</li>
-    <li>Mousse de maracujá</li>
+    <li>Mousse de maracujá</li></h2>
 </ul>
 
 <a href="">
