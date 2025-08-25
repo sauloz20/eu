@@ -1,0 +1,14 @@
+<div class="conteudo">
+  <h1>Bem-vindo ao meu site</h1>
+  <p>Esse é o conteúdo da página.</p>
+</div>
+
+<style>
+  .conteudo {
+    border-left: 8px solid #333;   /* borda esquerda */
+    border-right: 8px solid #333;  /* borda direita */
+    padding: 20px;                 /* espaço interno */
+    max-width: 800px;              /* largura máxima */
+    margin: auto;                  /* centralizar no meio */
+  }
+</style>
