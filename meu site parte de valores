@@ -8,10 +8,10 @@
 </head>
 
 <body> 
-    te
+    
 
-    <h1>Massas</h1>
-    <ul>
+    <b><h1>Massas</h1></b>
+    <ul style="list-style: none;">
         <h2><li>Baunilha</li>
         <li>chocolate 50%</li>
         <li>Cacau black</li>
@@ -22,7 +22,7 @@
 <h1><b>Recheios</b></h1>
 
 
-<ul>
+<ul style="list-style: none;">
     <h2><li>Creme moça</li>
     <li>Coco gourmet</li>
     <li>Brigadeiro tradicional</li>
@@ -37,7 +37,7 @@
     <li>Mousse de chocolate</li>
     <li>Brigadeiro de maracujá</li>
     <li>Mousse de maracujá</li></h2>
-</ul>
+</ul> 
 
 <button onclick="window.location.href='https://wa.me/55999999999'" target="_blank">
   Faça seu orçamento
