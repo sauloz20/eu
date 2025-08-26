@@ -8,6 +8,7 @@
 </head>
 
 <body> 
+    te
 
     <h1>Massas</h1>
     <ul>
@@ -38,9 +39,9 @@
     <li>Mousse de maracujá</li></h2>
 </ul>
 
-<a href="">
-<button>Pedidos pelo whatsapp </button>
-</a>
+<button onclick="window.location.href='https://wa.me/55999999999'" target="_blank">
+  Faça seu orçamento
+</button>
 
 </body>
 </html>
