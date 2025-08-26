@@ -1,0 +1,78 @@
+body{
+    background-color: blanchedalmond;
+    color: brown;
+    text-align: center;
+
+     border-left: 8px solid brown; 
+    border-right: 8px solid brown; 
+    padding: 20px;                
+    max-width: 800px;              
+    margin: auto;                  
+    border-radius: 20px;
+    margin-top: 20px;
+    border-top: 20px brown;
+    border-bottom: 20px brown;
+
+     
+}
+
+button {
+  background-color: brown;
+  color: blanchedalmond;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
+  text-align: center;
+    
+}
+
+ button:hover {
+  background-color: brown;
+   background-color: darkred;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
+  }
+
+  textarea{
+    text-align: center;
+    background-color: blanchedalmond;
+    color: brown;
+    
+  }
+
+  label{
+    background-color: blanchedalmond;
+    color:brown;
+  }
+
+  input{
+    background-color: blanchedalmond;
+    color:brown;
+
+  }
+
+   footer{
+    background-color: brown;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 4px 0px;
+    margin-top: 40%;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  footer a{
+    color: #ffd700;
+    text-decoration: none;
+  }
+
+  footer a :hover{
+    text-decoration: underline;
+  }
+
+  footer p{
+    color: blanchedalmond;
+   }
