@@ -44,3 +44,7 @@ body {
    background-color: darkred;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
   }
+
+  div{
+    text-align: center;
+  }
