@@ -96,3 +96,12 @@ p {
   footer p{
     color: blanchedalmond;
   }
+
+  div{
+    text-align: center;
+  }
+
+  b h1{
+    text-align: center;
+    color: brown;
+  }
