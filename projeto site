@@ -42,7 +42,7 @@
   </div>
 
   
-  <button onclick="window.location.href='https://wa.me/55999999999'" target="_blank">
+ <div> <button onclick="window.location.href='https://wa.me/55999999999'" target="_blank">
   Faça seu orçamento
 </button>
 
@@ -52,21 +52,19 @@
 
 <button onclick="window.location.href='cadastro.html'">
   Faça o login
-</button>
+</button> </div>
 
-<h1>Agumas informações que você precisa se atentar antes de comprar:</h1>
-<ul>
-  <h2>
-    <li>Produtos 100% artesanais</li>
-    <li>•Horário de Atendimento:
+<b><h1>Agumas informações que você precisa se atentar antes de comprar:</h1></b>
+<ul style="list-style: none;">
+
+<em><h2>
+    <li>Produto 100% artesanal</li>
+    <li>Horário de Atendimento:
 -Terça a Sábado | 9h às 18h</li>
-    <li> Quantidade limitada</li>
-
-
-
-
-
-  </h2>
+    <li>Quantidade limitada</li>
+    <li>Escolha massa e Recheio</li>
+    <li>Especifique quando for encomendar</li>
+  </h2></em>
 
 
 
