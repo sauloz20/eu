@@ -9,43 +9,78 @@
 
   <h2><b>Bem-vindo à Érica Cakes</b></h2>
 
-  <p><b>
+  <p><em>
     Aqui, unimos criatividade, qualidade e dedicação em cada receita. Trabalhamos com ingredientes selecionados e prezamos sempre pelo frescor, para garantir que cada cliente viva uma experiência única de sabor e beleza. Do bolo simples do dia a dia até os mais elaborados de dois andares, tudo é feito com amor e capricho.
-  </b></p>
+  </b></em>
 
   <h2><em>
     Na Érica Cakes, preparamos cada doce e bolo com muito carinho e dedicação. Confira abaixo alguns dos nossos exemplares já produzidos e inspire-se para a sua comemoração.
   </em></h2>
 
-  <h2><em>
+  <h2><b>
     Abaixo você pode conferir alguns dos nossos serviços:
-  </em></h2>
+  </b></h2>
 
   <!-- Grid de imagens -->
   <div class="grid-container">
     <div class="grid-item">
-      <img src="https://via.placeholder.com/300x200?text=Bolo+Festivo" alt="Bolo Festivo" />
+      <img src="file:///C:/Users/Admin/Downloads/d65260bc-4863-4855-83c0-692ebe470384.jfif" alt="Bolo Festivo" />
       <p>Bolo Festivo</p>
     </div>
     <div class="grid-item">
-      <img src="https://via.placeholder.com/300x200?text=Morango+do+Amor" alt="Morango do Amor" />
+      <img src="file:///C:/Users/Admin/Downloads/035616ab-9474-4683-90a0-537bb3d9f819.jfif" alt="Morango do Amor" />
       <p>Morango do Amor</p>
     </div>
     <div class="grid-item">
-      <img src="https://via.placeholder.com/300x200?text=Bolo+Caseiro" alt="Bolo Caseiro" />
+      <img src="file:///C:/Users/Admin/Downloads/c848f0b0-fe8c-4f24-ad02-b7410ee599a2.jfif" alt="Bolo Caseiro" />
       <p>Bolo Caseiro</p>
     </div>
     <div class="grid-item">
-      <img src="https://via.placeholder.com/300x200?text=Outro+Produto" alt="Outro Produto" />
+      <img src="file:///C:/Users/Admin/Downloads/9f4502e9-8f63-4966-9e8e-6c1b2853f5dc.jfif" alt="Outro Produto" />
       <p>Outro Produto</p>
     </div>
   </div>
 
-  <!-- Botões -->
-  <div class="buttons">
-    <button onclick="window.open('#')">Conheça nosso catálogo</button>
-    <button onclick="window.open('#')">Faça seu orçamento</button>
-  </div>
+  
+  <button onclick="window.location.href='https://wa.me/55999999999'" target="_blank">
+  Faça seu orçamento
+</button>
+
+<button onclick="window.open('https://www.instagram.com/ericacakesmoc/', '_blank')">
+  Acesse nosso Instagram
+</button>
+
+<button onclick="window.location.href='cadastro.html'">
+  Faça o login
+</button>
+
+<h1>Agumas informações que você precisa se atentar antes de comprar:</h1>
+<ul>
+  <h2>
+    <li>Produtos 100% artesanais</li>
+    <li>•Horário de Atendimento:
+-Terça a Sábado | 9h às 18h</li>
+    <li> Quantidade limitada</li>
+
+
+
+
+
+  </h2>
+
+
+
+
+
+</ul>
+<footer>
+  <p>© 2025 Érica Cakes - Todos os direitos reservados</p>
+  <p>
+    <a href="https://www.instagram.com/ericacakesmoc/" target="_blank">Instagram</a> | 
+    <a href="https://wa.me/55999999999" target="_blank">WhatsApp</a>
+  </p>
+</footer>
+
 
 </body>
 </html>
