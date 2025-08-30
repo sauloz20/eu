@@ -3,6 +3,8 @@
     <head>
         <title>formulário</title>
         <link rel="stylesheet" href="cadastro.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
     <body>
 
@@ -13,16 +15,16 @@
 <input type="text" id="email" name="email"><br></h2>
 
 <h2><label for="nome">deixe um comentário:</label><br>
-<textarea style="width: 400px; height: 100px;"></textarea>
+<textarea style="width: 250px; height: 100px;"></textarea>
 
 
-<button>Enviar</button>
+<div><button>Enviar</button></div>
 
 <footer>
   <p>© 2025 Érica Cakes - Todos os direitos reservados</p>
   <p>
     <a href="https://www.instagram.com/ericacakesmoc/" target="_blank">Instagram</a> | 
-    <a href="https://wa.me/55999999999" target="_blank">WhatsApp</a>
+    <a href="https://wa.me/553891847808" target="_blank">WhatsApp</a>
   </p>
 </footer>
 
