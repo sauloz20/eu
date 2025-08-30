@@ -5,25 +5,34 @@
 <head>
 <title>como trabalhamos?</title>
 <link rel="stylesheet" href="eu.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
-<body> 
+<body>  
+    <b><h1>Bolos</h1></b>
+
+    <h3><em><p>Todos os nossos ingredientes são selecionados com constantes testes e atualizações garantindo a melhor curadoria e harmonização de sabores. 
+
+O cardápio é dividido entre bolo em acetato, e creme  ( orçamento personalizado ).</p></em></h3>
+    
+<h1>Trabalhamos com as seguintes massas e Recheios</h1>
     
 
-    <b><h1>Massas</h1></b>
+    <div><b><h1>Massas</h1></b></div>
     <ul style="list-style: none;">
-        <h2><li>Baunilha</li>
+       <em><h2><li>Baunilha</li>
         <li>chocolate 50%</li>
         <li>Cacau black</li>
-        <li>Red velvet</li></h2>
+        <li>Red velvet</li></h2></em>
 
     </ul>
 
-<h1><b>Recheios</b></h1>
+<div><h1><b>Recheios</b></h1></div>
 
 
 <ul style="list-style: none;">
-    <h2><li>Creme moça</li>
+    <em><h2><li>Creme moça</li>
     <li>Coco gourmet</li>
     <li>Brigadeiro tradicional</li>
     <li>Brigadeiro branco</li>
@@ -36,12 +45,48 @@
     <li>Brigadeiro quatro leites</li>
     <li>Mousse de chocolate</li>
     <li>Brigadeiro de maracujá</li>
-    <li>Mousse de maracujá</li></h2>
+    <li>Mousse de maracujá</li></h2></em>
 </ul> 
 
-<button onclick="window.location.href='https://wa.me/55999999999'" target="_blank">
+<h1>Fatias e Preços</h1>
+
+  <div class="grid-container">
+    <div class="header">Produto</div>
+    <div class="header">Preço</div>
+
+    <div>10 fatias</div>
+    <div>R$ 90,00</div>
+
+    <div>15 fatias</div>
+    <div>R$ 180,00</div>
+
+    <div>20 fatias</div>
+    <div>R$ 220,00</div>
+
+    <div>25 fatias</div>
+    <div>R$ 270,00</div>
+
+    <div>30 fatias</div>
+    <div>R$ 320,00</div>
+
+    <div>40 fatias</div>
+    <div>R$ 400,00</div>
+  </div>
+        
+  <em><p>*Os valores podem mudar de acordo com massa,recheio e camadas.</p></em>
+
+<button onclick="window.location.href='https://wa.me/553891847808'" target="_blank">
   Faça seu orçamento
 </button>
+
+<footer>
+  <p>© 2025 Érica Cakes - Todos os direitos reservados</p>
+  <p>
+    <a href="https://www.instagram.com/ericacakesmoc/" target="_blank">Instagram</a> | 
+    <a href="https://wa.me/55999999999" target="_blank">WhatsApp</a>
+  </p>
+</footer>
+
 
 </body>
 </html>
