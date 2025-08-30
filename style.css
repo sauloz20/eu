@@ -41,9 +41,11 @@ p {
 }
 
 .grid-item img {
-  width: 100%;
+
   height: auto;
   border-radius: 8px;
+  width: 300px;      /* largura fixa */
+  height: 220px;     /* altura fixa */
 }
 
 .grid-item p {
@@ -58,19 +60,21 @@ p {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  
 }
 
  button {
   background-color: brown;
   color: blanchedalmond;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
   margin: 10px;
    box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
+   
 }
 
  button:hover {
@@ -79,7 +83,47 @@ p {
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
   }
 
-  footer{
+  
+
+  #grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+#grid2 .item {
+  text-align: center;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#grid2 .item img {
+  
+  height: auto;
+  border-radius: 8px;
+  width: 300px;      /* largura fixa */
+  height: 390px;     /* altura fixa */
+}
+
+#grid2 .item p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border: 0;
+}
+
+footer{
     background-color: brown;
     color: blanchedalmond;
     text-align: center;
@@ -120,39 +164,3 @@ p {
   li{
     list-style: none;
   }
-
-  #grid2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-  gap: 20px;
-  max-width: 800px;
-  margin: 40px auto;
-  justify-content: center;
-}
-
-#grid2 .item {
-  text-align: center;
-  background-color: blanchedalmond;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-#grid2 .item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-#grid2 .item p {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #444;
-  text-align: center;
-}
-
-iframe {
-  width: 100%;
-  height: 400px;
-  border: 0;
-}
