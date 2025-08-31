@@ -3,7 +3,9 @@ html {
 }
 
 
+
 body {
+  
   font-family: Arial, sans-serif;
   padding: 20px;
   background-color: blanchedalmond;
@@ -61,13 +63,13 @@ p {
   display: flex;
   justify-content: center;
   gap: 10px;
-  
+
 }
 
  button {
   background-color: brown;
   color: blanchedalmond;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -129,9 +131,12 @@ footer{
     text-align: center;
     padding: 4px 0px;
     margin-top: 40%;
-    width: 100%;
+    width: 88vw;
     font-size: 14px;
     border-radius: 15px;
+     justify-content: center;
+     left: 0;  
+
   }
 
   footer a{
@@ -164,3 +169,14 @@ footer{
   li{
     list-style: none;
   }
+
+  .link-imagem img{
+    border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* animação suave */
+}
+  .link-imagem img:hover {
+  transform: translateY(-10px);  /* "salta" 10px pra cima */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* sombra mais forte */
+  cursor: pointer;
+}
+
