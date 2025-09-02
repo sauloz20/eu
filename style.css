@@ -1,16 +1,15 @@
-html {
-  scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
 }
 
-
-
 body {
-  
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 10px;
   background-color: blanchedalmond;
   border-left: 10px solid brown;  
   border-right: 10px solid brown;
+  width: 100%;
+  margin: 0;   /* remove espaçamento padrão */
 }
 
 h2 {
@@ -27,7 +26,7 @@ p {
 
 /* Estilização do grid */
 .grid-container {
-  display: grid;
+  
   grid-template-columns: repeat(2, 1fr); /* 2 colunas */
   gap: 20px;
   max-width: 800px;
@@ -85,8 +84,10 @@ p {
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
   }
 
+  
+
   #grid2 {
-  display: flex;
+ 
   grid-template-columns: repeat(2, 1fr); /* 2 colunas */
   gap: 20px;
   max-width: 800px;
@@ -106,8 +107,8 @@ p {
   
   height: auto;
   border-radius: 8px;
-  width: 30%;      /* largura fixa */
-  height: 30%;     /* altura fixa */
+  width: 300px;      /* largura fixa */
+  height: 390px;     /* altura fixa */
 }
 
 #grid2 .item p {
@@ -129,7 +130,7 @@ footer{
     text-align: center;
     padding: 4px 0px;
     margin-top: 40%;
-    width: 88vw;
+    width: 100%;
     font-size: 14px;
     border-radius: 15px;
      justify-content: center;
@@ -178,4 +179,9 @@ footer{
   cursor: pointer;
 }
 
+div .link-imagem{
+  text-align: center;
+  border-radius: 15px;
+}
 
+  
