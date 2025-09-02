@@ -9,6 +9,8 @@ body {
   justify-content: center; 
   align-items: center;     
   height: 100vh;   
+  font-size: 14px;     /* reduz no celular */
+
    
 
 
@@ -41,7 +43,9 @@ body {
   margin: 10px;
    box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
    text-align: center;
+   padding: 8px 16px;   /* ajusta tamanho no celular */
 }
+
 
  button:hover {
   background-color: brown;
@@ -113,7 +117,7 @@ body {
     text-align: center;
     padding: 04px 01px;
     margin-top: 40%;
-    width: 200%;
+    width: 100%;
     font-size: 14px;
     border-radius: 15px;
   }
@@ -130,3 +134,4 @@ body {
   footer p{
     color: blanchedalmond;
   }
+
