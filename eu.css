@@ -135,3 +135,15 @@ body {
     color: blanchedalmond;
   }
 
+  img{
+    border-radius: 15px;
+  }
+
+  .meu-conteudo {
+  border: 2px solid brown; /* Espessura, estilo e cor da borda */
+  border-radius: 10px;     /* Bordas arredondadas */
+  padding: 15px;           /* Espaço interno entre o conteúdo e a borda */
+  margin: 10px 0;          /* Espaço externo entre outros elementos */
+}
+
+
