@@ -2,6 +2,93 @@
   box-sizing: border-box;
 }
 
+/* Cabeçalho fixo no topo */
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: brown;
+  border-bottom: 3px solid blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  z-index: 1000;
+  border-radius: 15px;
+}
+
+/* Espaço para o conteúdo não ficar escondido */
+body {
+  margin: 0;
+  padding-top: 80px; /* altura do cabeçalho */
+  font-family: Arial, sans-serif;
+  background-color: brown;
+  border-radius: 15px;
+}
+
+/* Logo + nome */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 22px;
+  color: brown;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  border-radius: 35px;
+  background-color: blanchedalmond;
+  padding: 5px 15px;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+   margin-left: 50px; /* afasta o menu da logo */
+}
+
+nav a {
+  text-decoration: none;
+  color: brown;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre ícone e texto */
+  transition: 0.3s;
+  background-color: blanchedalmond;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  color: hotpink;
+}
+
+/* Ícones redondos */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  color: brown;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 body {
   font-family: Arial, sans-serif;
   padding: 10px;
@@ -16,17 +103,16 @@ h2 {
   text-align: center;
   font-size: 25px;
   font-weight: normal;
-    color: brown;
+  color: brown;
 }
 
 p {
   font-size: 25px;
-    color: brown;
+  color: brown;
 }
 
 /* Estilização do grid */
 .grid-container {
-  
   grid-template-columns: repeat(2, 1fr); /* 2 colunas */
   gap: 20px;
   max-width: 800px;
@@ -35,14 +121,14 @@ p {
 
 .grid-item {
   text-align: center;
-    background-color: blanchedalmond;
+  background-color: blanchedalmond;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .grid-item img {
-
   height: auto;
   border-radius: 8px;
   width: 300px;      /* largura fixa */
@@ -62,10 +148,9 @@ p {
   display: flex;
   justify-content: center;
   gap: 10px;
-
 }
 
- button {
+button {
   background-color: brown;
   color: blanchedalmond;
   padding: 10px 15px;
@@ -74,20 +159,15 @@ p {
   cursor: pointer;
   font-size: 16px;
   margin: 10px;
-   box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
-   
+  box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
 }
 
- button:hover {
-  background-color: brown;
-   background-color: darkred;
-    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
-  }
+button:hover {
+  background-color: darkred;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
+}
 
-  
-
-  #grid2 {
- 
+#grid2 {
   grid-template-columns: repeat(2, 1fr); /* 2 colunas */
   gap: 20px;
   max-width: 800px;
@@ -101,10 +181,10 @@ p {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 #grid2 .item img {
-  
   height: auto;
   border-radius: 8px;
   width: 300px;      /* largura fixa */
@@ -124,64 +204,68 @@ iframe {
   border: 0;
 }
 
-footer{
-    background-color: brown;
-    color: blanchedalmond;
-    text-align: center;
-    padding: 4px 0px;
-    margin-top: 40%;
-    width: 100%;
-    font-size: 14px;
-    border-radius: 15px;
-     justify-content: center;
-     left: 0;  
-
-  }
-
-  footer a{
-    color: #ffd700;
-    text-decoration: none;
-  }
-
-  footer a :hover{
-    text-decoration: underline;
-  }
-
-  footer p{
-    color: blanchedalmond;
-  }
-
-  div{
-    text-align: center;
-  }
-
-  b h1{
-    text-align: center;
-    color: brown;
-  }
-
-  h1{
-    color: brown;
-    text-align: center;
-  }
-
-  li{
-    list-style: none;
-  }
-
-  .link-imagem img{
-    border-radius: 15px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* animação suave */
+footer {
+  background-color: brown;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 4px 0px;
+  margin-top: 40%;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 15px;
+  justify-content: center;
+  left: 0;  
 }
-  .link-imagem img:hover {
-  transform: translateY(-10px);  /* "salta" 10px pra cima */
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* sombra mais forte */
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: blanchedalmond;
+}
+
+div {
+  text-align: center;
+}
+
+b h1 {
+  text-align: center;
+  color: brown;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+/* ===== Animação em TODAS as imagens ===== */
+img {
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   cursor: pointer;
 }
 
-div .link-imagem{
-  text-align: center;
-  border-radius: 15px;
+/* ===== Animação nos CARDS do GRID ===== */
+.grid-item:hover,
+#grid2 .item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  cursor: pointer;
 }
 
   
