@@ -72,7 +72,7 @@ nav a {
 }
 
 nav a:hover {
-  color: hotpink;
+  color: burlywood;
 }
 
 /* Ícones redondos */
@@ -268,4 +268,3 @@ img:hover {
   cursor: pointer;
 }
 
-  
