@@ -1,117 +1,119 @@
 body {
-    
+
     background-color: blanchedalmond;
     color: brown;
-    
+
     margin: 0;
     padding: 20px;
     display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 100vh;   
-  font-size: 14px;     /* reduz no celular */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 14px;
+    /* reduz no celular */
 
-   
+    padding: 20px 40px;
+    margin: 20px auto;
+    display: inline-block;
 
-
-
-     
-    padding: 20px 40px;        
-    margin: 20px auto;        
-    display: inline-block;   
-    
-    border-radius: 15px;   
+    border-radius: 15px;
 
 
 
 
-   
-    padding: 20px;                 
-    max-width: 700px;             
-    margin: auto;                  
-  
-    }    
 
-     button {
-  background-color: brown;
-  color: blanchedalmond;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 10px;
-   box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
-   text-align: center;
-   padding: 8px 16px;   /* ajusta tamanho no celular */
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+
+}
+
+button {
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
+    text-align: center;
+    padding: 8px 16px;
+    /* ajusta tamanho no celular */
 }
 
 
- button:hover {
-  background-color: brown;
-   background-color: darkred;
+button:hover {
+    background-color: brown;
+    background-color: darkred;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
     text-align: center;
-  }
+}
 
-  div{
+div {
     text-align: center;
-  }
+}
 
-  h1{
-   text-align: center;
-  }
+h1 {
+    text-align: center;
+}
 
 
-#div{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid #ccc;
+#div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 
 
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* 2 colunas: produto e preço */
+    gap: 10px 20px;
+    /* espaço entre linhas e colunas */
+    max-width: 600px;
+    margin: 20px auto;
+    background: brown;
+    color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10pxr blanchedalmond;
+}
+
+.grid-container div {
+    padding: 10px;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+.grid-container div.header {
+    font-weight: bold;
+    background: brown;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.grid-container div:last-child {
+    border-bottom: none;
+    /* remove a borda da última linha */
+}
+
+@media (max-width: 500px) {
     .grid-container {
-      text-align: center;
-      display: grid;
-      grid-template-columns: 2fr 1fr; /* 2 colunas: produto e preço */
-      gap: 10px 20px;                /* espaço entre linhas e colunas */
-      max-width: 600px;
-      margin: 20px auto;
-      background:brown;
-      color: blanchedalmond;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10pxr blanchedalmond;
+        grid-template-columns: 1fr;
+        /* uma coluna no celular */
     }
 
     .grid-container div {
-      padding: 10px;
-      border-bottom: 1px solid blanchedalmond;
-    }
-
-    .grid-container div.header {
-      font-weight: bold;
-      background:brown;
-      border-bottom: 2px solid blanchedalmond;
-    }
-
-    .grid-container div:last-child {
-      border-bottom: none; /* remove a borda da última linha */
-    }
-
-    @media (max-width: 500px) {
-      .grid-container {
-        grid-template-columns: 1fr; /* uma coluna no celular */
-      }
-      .grid-container div {
         text-align: center;
-      }
     }
+}
 
-    footer{
+footer {
     background-color: brown;
     color: blanchedalmond;
     text-align: center;
@@ -120,30 +122,32 @@ body {
     width: 100%;
     font-size: 14px;
     border-radius: 15px;
-  }
-
-  footer a{
-    color: #ffd700;
-    text-decoration: none;
-  }
-
-  footer a :hover{
-    text-decoration: underline;
-  }
-
-  footer p{
-    color: blanchedalmond;
-  }
-
-  img{
-    border-radius: 15px;
-  }
-
-  .meu-conteudo {
-  border: 2px solid brown; /* Espessura, estilo e cor da borda */
-  border-radius: 10px;     /* Bordas arredondadas */
-  padding: 15px;           /* Espaço interno entre o conteúdo e a borda */
-  margin: 10px 0;          /* Espaço externo entre outros elementos */
 }
 
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
 
+footer a :hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: blanchedalmond;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.meu-conteudo {
+    border: 2px solid brown;
+    /* Espessura, estilo e cor da borda */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    padding: 15px;
+    /* Espaço interno entre o conteúdo e a borda */
+    margin: 10px 0;
+    /* Espaço externo entre outros elementos */
+}
