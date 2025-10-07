@@ -1,269 +1,54 @@
-* {
-  box-sizing: border-box;
+/* style.css */
+
+/* Ajustar contraste e tema */
+:root {
+  --primary-color: #8B3A3A;
+  --secondary-color: #F5E8E0;
+  --btn-focus-outline: 3px solid #C55;
 }
 
-/* Cabeçalho fixo no topo */
-header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: brown;
-  border-bottom: 3px solid blanchedalmond;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  z-index: 1000;
-  border-radius: 15px;
-}
-
-/* Espaço para o conteúdo não ficar escondido */
+/* Aplicar cores no body, fundo, textos */
 body {
-  margin: 0;
-  padding-top: 80px; /* altura do cabeçalho */
-  font-family: Arial, sans-serif;
-  background-color: brown;
-  border-radius: 15px;
+  background-color: var(--secondary-color);
+  color: #3c2a2a;
 }
 
-/* Logo + nome */
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  width: 50px;
-  margin-right: 10px;
-}
-
+/* Logo / título personalizado */
 .logo h1 {
-  font-size: 22px;
-  color: brown;
   font-family: 'Dancing Script', cursive;
-  text-align: center;
-  border-radius: 35px;
-  background-color: blanchedalmond;
-  padding: 5px 15px;
+  color: var(--primary-color);
 }
 
-/* Menu */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-   margin-left: 50px; /* afasta o menu da logo */
+/* Personalizar links de navegação no header */
+.nav-link {
+  color: var(--primary-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-radius: .25rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: brown;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  gap: 8px; /* espaço entre ícone e texto */
-  transition: 0.3s;
-  background-color: blanchedalmond;
-  padding: 6px 14px;
-  border-radius: 20px;
+/* Botões personalizados */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.btn-primary:focus, .btn-primary:active {
+  outline: var(--btn-focus-outline);
+  box-shadow: none;
 }
 
-nav a:hover {
-  color: burlywood;
+/* Foco visível geral */
+:focus {
+  outline: var(--btn-focus-outline);
+  outline-offset: 2px;
 }
 
-/* Ícones redondos */
-.icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background-color: blanchedalmond;
-  color: brown;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  padding: 10px;
-  background-color: blanchedalmond;
-  border-left: 10px solid brown;  
-  border-right: 10px solid brown;
-  width: 100%;
-  margin: 0;   /* remove espaçamento padrão */
-}
-
-h2 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: normal;
-  color: brown;
-}
-
-p {
-  font-size: 25px;
-  color: brown;
-}
-
-/* Estilização do grid */
-.grid-container {
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-  gap: 20px;
-  max-width: 800px;
-  margin: 40px auto;
-}
-
-.grid-item {
-  text-align: center;
-  background-color: blanchedalmond;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.grid-item img {
-  height: auto;
-  border-radius: 8px;
-  width: 300px;      /* largura fixa */
-  height: 220px;     /* altura fixa */
-}
-
-.grid-item p {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #444;
-}
-
-/* Botões */
-.buttons {
-  text-align: center;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-button {
-  background-color: brown;
-  color: blanchedalmond;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 10px;
-  box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
-}
-
-button:hover {
-  background-color: darkred;
-  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
-}
-
-#grid2 {
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-  gap: 20px;
-  max-width: 800px;
-  margin: 40px auto;
-  justify-content: center;
-}
-
-#grid2 .item {
-  text-align: center;
-  background-color: blanchedalmond;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-#grid2 .item img {
-  height: auto;
-  border-radius: 8px;
-  width: 300px;      /* largura fixa */
-  height: 390px;     /* altura fixa */
-}
-
-#grid2 .item p {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #444;
-  text-align: center;
-}
-
-iframe {
-  width: 100%;
-  height: 200px;
-  border: 0;
-}
-
-footer {
-  background-color: brown;
-  color: blanchedalmond;
-  text-align: center;
-  padding: 4px 0px;
-  margin-top: 40%;
-  width: 100%;
-  font-size: 14px;
-  border-radius: 15px;
-  justify-content: center;
-  left: 0;  
-}
-
-footer a {
-  color: #ffd700;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-footer p {
-  color: blanchedalmond;
-}
-
-div {
-  text-align: center;
-}
-
-b h1 {
-  text-align: center;
-  color: brown;
-}
-
-h1 {
-  color: brown;
-  text-align: center;
-}
-
-li {
-  list-style: none;
-}
-
-/* ===== Animação em TODAS as imagens ===== */
-img {
-  border-radius: 15px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-img:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-  cursor: pointer;
-}
-
-/* ===== Animação nos CARDS do GRID ===== */
-.grid-item:hover,
-#grid2 .item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-  cursor: pointer;
+/* Animação reduzida se o usuário preferir menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
 }
