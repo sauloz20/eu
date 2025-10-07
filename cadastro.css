@@ -1,95 +1,66 @@
-body{
-    background-color: blanchedalmond;
-    color: brown;
-    text-align: center;
-
-     border-left: 8px solid brown; 
-    border-right: 8px solid brown; 
-    padding: 20px;                
-    max-width: 300px;              
-    margin: auto;                  
-    border-radius: 20px;
-    margin-top: 20px;
-    border-top: 20px brown;
-    border-bottom: 20px brown;
-font-size: 14px;     /* reduz no celular */
-
-     
+body {
+  background-color: blanchedalmond;
+  color: brown;
+  font-family: Arial, sans-serif;
 }
 
-button {
+.form-box {
+  max-width: 500px;
+  background-color: #fffaf0;
+  border: 3px solid brown;
+  border-radius: 15px;
+}
+
+label {
+  color: brown;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  background-color: blanchedalmond;
+  border: 2px solid brown;
+  color: brown;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: darkred;
+  box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.2);
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-custom {
   background-color: brown;
   color: blanchedalmond;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  padding: 10px 20px;
   font-size: 16px;
-  margin: 10px;
-  box-shadow: 3px 3px 8px rgba(255, 52, 52, 0.4);
-  text-align: center;
-  padding: 8px 16px;   /* ajusta tamanho no celular */
-    
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
- button:hover {
+.btn-custom:hover {
+  background-color: darkred;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+footer {
   background-color: brown;
-   background-color: darkred;
-    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.6);
-  }
+  color: blanchedalmond;
+  border-radius: 10px;
+}
 
-  textarea{
-    text-align: center;
-    background-color: blanchedalmond;
-    color: brown;
-    border:  5px brown;
-    border-radius: 12px;
-    padding: 10px;
-    width: 200px;
-    height: 150px;
-    resize: none;
-    
-    
-  }
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
 
-  label{
-    background-color: blanchedalmond;
-    color:brown;
-  }
-
-  input{
-    background-color: blanchedalmond;
-    color:brown;
-    border-radius: 12px;
-
-  }
-
-   footer{
-    background-color: brown;
-    color: blanchedalmond;
-    text-align: center;
-    padding: 4px 0px;
-    margin-top: 20px;
-    width: 100%;
-    font-size: 14px;
-     border-radius: 10px;
-  }
-
-  footer a{
-    color: #ffd700;
-    text-decoration: none;
-  }
-
-  footer a :hover{
-    text-decoration: underline;
-  }
-
-  footer p{
-    color: blanchedalmond;
-   }
-
-   div{
-    text-align: center;
-   }
-
-   
+footer a:hover {
+  text-decoration: underline;
+}
