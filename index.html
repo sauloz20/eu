@@ -1,173 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <title>Bem vindo à Érica Cakes</title>
-    <link rel="stylesheet" href="style.css"> <!-- link do CSS externo -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Érica Cakes</title>
+  <meta name="description" content="Bolos artesanais, doces e delícias feitas com amor. Encomende agora!">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8e4c9;
+      font-family: 'Arial', sans-serif;
+    }
 
+    header {
+      background-color: brown;
+      color: blanchedalmond;
+      padding: 1rem 0;
+    }
 
+    header h1 {
+      font-family: 'Dancing Script', cursive;
+    }
+
+    .navbar a {
+      color: blanchedalmond !important;
+      font-weight: bold;
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: brown;
+      color: blanchedalmond;
+      padding: 1rem 0;
+    }
+
+    .btn-custom {
+      background-color: brown;
+      color: blanchedalmond;
+    }
+
+    .btn-custom:hover {
+      background-color: #7d1f1f;
+      color: #fff;
+    }
+  </style>
 </head>
 
 <body>
 
-
-    <!-- Cabeçalho começa aqui -->
-    <header>
-        <div class="logo">
-
-            <h1>Érica Cakes</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">🏠 Início</a></li>
-                <li><a href="site.index.html">🍰 Produtos</a></li>
-                <li><a href="https://wa.me/553891847808">💌 Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Cabeçalho termina aqui -->
-
-    <h1><b>Bem-vindo à Érica Cakes</b></h1>
-
-    <p><em>
-            Aqui, unimos criatividade, qualidade e dedicação em cada receita. Trabalhamos com ingredientes selecionados
-            e prezamos sempre pelo frescor, para garantir que cada cliente viva uma experiência única de sabor e beleza.
-            Do bolo simples do dia a dia até os mais elaborados de dois andares, tudo é feito com amor e capricho.
-            </b></em>
-
-    <h2><em>
-            Na Érica Cakes, preparamos cada doce e bolo com muito carinho e dedicação. Confira abaixo alguns dos nossos
-            exemplares já produzidos e inspire-se para a sua comemoração.
-        </em></h2>
-
-    <h2><b>
-            Abaixo você pode conferir alguns dos nossos serviços:
-        </b></h2>
-
-
-    <div class="grid-container">
-        <div class="grid-item">
-            <img src="https://i.pinimg.com/736x/d9/5f/e9/d95fe9ed3930eb32aa75a1d5fdd62e5b.jpg" alt="Bolo Festivo" />
-            <p>Bolo Festivo</p>
-        </div>
-        <div class="grid-item">
-            <img src="https://i.pinimg.com/1200x/4b/bc/5a/4bbc5a195096023bb99b025e90661acf.jpg"
-                alt="Doces para festas" />
-            <p>Doces para festas</p>
-
-        </div>
-        <div class="grid-item">
-            <img src="https://i.pinimg.com/736x/ce/42/bc/ce42bc1daa1a89ec2084f1b05d055b3f.jpg" alt="Bolo Caseiro" />
-            <p>Bolo Caseiro</p>
-
-        </div>
-        <div class="grid-item">
-            <img src="https://i.pinimg.com/736x/0e/d5/5a/0ed55ac11a03c03c135ef0d0e3ab6188.jpg" alt="Morango do amor" />
-            <p>Morango do amor</p>
-        </div>
+  <!-- HEADER -->
+  <header class="text-center">
+    <div class="container">
+      <h1>Érica Cakes</h1>
+      <nav class="navbar navbar-expand-lg justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">🏠 Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="site.index.html">🍰 Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://wa.me/553891847808" target="_blank" aria-label="Fale conosco pelo WhatsApp">💌 Contato</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
+  <!-- MAIN CONTENT -->
+  <main class="container py-5">
 
-    <div> <button onclick="window.location.href='https://wa.me/553891847808'" target="_blank">
-            Faça seu orçamento
-        </button>
+    <!-- Introdução -->
+    <section class="text-center mb-5">
+      <h2 class="mb-3">Bem-vindo à Érica Cakes</h2>
+      <p class="lead">
+        Aqui unimos criatividade, qualidade e dedicação em cada receita. Trabalhamos com ingredientes selecionados para
+        garantir uma experiência única de sabor e beleza.
+      </p>
+    </section>
 
-        <button onclick="window.open('https://www.instagram.com/ericacakesmoc/', '_blank')">
-            Acesse nosso Instagram
-        </button>
-
-        <button onclick="window.location.href='cadastro.html'">
-            Faça o login
-        </button>
-    </div>
-
-    <div><button onclick="window.location.href='site.index.html'">
-            Acesse nosso cardapio
-        </button> </div>
-
-    <b>
-        <h1>Agumas informações que você precisa se atentar antes de comprar:</h1>
-    </b>
-    <ul style="list-style: none;">
-
-        <em>
-            <h2>
-                <li>Produto 100% artesanal</li>
-                <li>Horário de Atendimento:
-                    -Terça a Sábado | 9h às 18h</li>
-                <li>Quantidade limitada</li>
-                <li>Escolha massa e Recheio</li>
-                <li>Especifique quando for encomendar</li>
-            </h2>
-        </em>
-
-        <h1><b>Depoimentos</b></h1>
-
-        <div id="grid2" class="grid-container">
-
-            <div class="item">
-                <img src="https://i.pinimg.com/1200x/fa/e7/64/fae7643e37fed1bd37bb81dab1193838.jpg"
-                    alt="Bolo no pote" />
-                <p>Depoimento 1</p>
+    <!-- Serviços -->
+    <section>
+      <h3 class="text-center mb-4">Nossos Produtos</h3>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/d9/5f/e9/d95fe9ed3930eb32aa75a1d5fdd62e5b.jpg" class="card-img-top" alt="Bolo Festivo decorado com frutas">
+            <div class="card-body text-center">
+              <h5 class="card-title">Bolo Festivo</h5>
             </div>
-
-            <div class="item">
-                <img src="https://i.pinimg.com/736x/ae/bf/90/aebf900f656c67be1cf52b0e1b9ef14d.jpg" alt="Depoimento 2" />
-                <p>Depoimento 2</p>
-            </div>
-
-            <div class="item">
-                <img src="https://i.pinimg.com/1200x/41/21/4e/41214eb86fca0ef0240a5ff4e90d62f8.jpg"
-                    alt="Depoimento 3" />
-                <p>Depoimento 3</p>
-            </div>
-
-            <div class="item">
-                <img src="https://cheflarissaperes.com.br/wp-content/uploads/2022/07/Depoimento-2.jpg"
-                    alt="Depoimento 4" width="10%" />
-                <p>Depoimento 4</p>
-            </div>
-
+          </div>
         </div>
-
-
-
-
-        <h1><b>Entrega e formas de pagamento</b></h1>
-
-        <h2><em>
-                <ul>
-                    <li>A combinar</li>
-                    <li>Sujeito a taxa de entrega</li>
-                    <li>Aceitamos cartão de débito e crédito</li>
-
-                </ul>
-            </em></h2>
-
-
-        <h2>📍 Nossa localização</h2>
-
-        <div> <a href="https://www.google.com/maps/@-16.7603953,-43.8768841,3a,15y,207.54h,82.51t/data=!3m7!1e1!3m5!1sz36B8M4UTfoUPuTx1Y50sQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D7.486792913354279%26panoid%3Dz36B8M4UTfoUPuTx1Y50sQ%26yaw%3D207.5436827915246!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank" class="link-imagem">
-                <img src="https://i.pinimg.com/1200x/c3/a3/9a/c3a39a415afed259d6c24df2d48154bc.jpg" alt="Minha imagem"
-                    width="80%" height="80% ">
-            </a>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/1200x/4b/bc/5a/4bbc5a195096023bb99b025e90661acf.jpg" class="card-img-top" alt="Doces variados para festas">
+            <div class="card-body text-center">
+              <h5 class="card-title">Doces para Festas</h5>
+            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/ce/42/bc/ce42bc1daa1a89ec2084f1b05d055b3f.jpg" class="card-img-top" alt="Bolo caseiro simples">
+            <div class="card-body text-center">
+              <h5 class="card-title">Bolo Caseiro</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/0e/d5/5a/0ed55ac11a03c03c135ef0d0e3ab6188.jpg" class="card-img-top" alt="Morango do amor coberto com chocolate">
+            <div class="card-body text-center">
+              <h5 class="card-title">Morango do Amor</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Botões -->
+    <section class="text-center mt-5">
+      <a href="https://wa.me/553891847808" target="_blank" class="btn btn-custom m-2" role="button">📞 Faça seu orçamento</a>
+      <a href="https://www.instagram.com/ericacakesmoc/" target="_blank" class="btn btn-custom m-2" role="button">📷 Acesse nosso Instagram</a>
+      <a href="cadastro.html" class="btn btn-custom m-2" role="button">🔒 Login</a>
+      <a href="site.index.html" class="btn btn-custom m-2" role="button">📖 Cardápio</a>
+    </section>
 
+    <!-- Informações importantes -->
+    <section class="mt-5">
+      <h3 class="text-center">Informações Importantes</h3>
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">✅ Produto 100% artesanal</li>
+        <li class="list-group-item">🕘 Atendimento: Terça a Sábado | 9h às 18h</li>
+        <li class="list-group-item">📦 Quantidade limitada por dia</li>
+        <li class="list-group-item">🍰 Escolha a massa e o recheio</li>
+        <li class="list-group-item">📝 Encomendas personalizadas sob aviso</li>
+      </ul>
+    </section>
 
-
-        <footer>
-            <p>© 2025 Érica Cakes - Todos os direitos reservados</p>
-            <p>
-                <a href="https://www.instagram.com/ericacakesmoc/" target="_blank">Instagram</a> |
-                <a href="https://wa.me/55389999999" target="_blank">WhatsApp</a>
-            </p>
-        </footer>
-
-
-</body>
-
-</html>
+    <!-- Depoimentos -->
+    <section class="mt-5">
+      <h3 class="text-center mb-4">Depoimentos</h3>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="https://i.pinimg.com/1200x/fa/e7/64/fae7643e37fed1bd37bb81dab1193838.jpg" class="card-img-top" alt="Cliente feliz com bolo no pote">
+            <div class="card-body">
+              <p>“Delicioso! Encomendei e chegou no horário certinho.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="https://i.pinimg.com/736x/ae/bf/90/aebf900f656c67be1cf52b0e1b9ef14d.jpg" class="card-img-top" alt="Doces organizados em mesa de festa">
+            <div class="card-body">
+              <p>“Melhores doces que já comi em uma festa!”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="https://i.pinimg.com/1200x/41/21/4e/41214eb86fca0ef0240a5ff4e90d62f8.jpg" class="card-img-top" alt="Bolo de dois andares decorado">
+            <div class="card-body">
+              <p>“Simplesmente maravilhoso, super recomendo.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="https://cheflarissaperes.com.br/wp-content/uploads/2022/07/Depoimento-2.jpg" class="card-img-top" alt="Cliente satisfeita
